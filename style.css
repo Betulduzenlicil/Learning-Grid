@@ -7,7 +7,7 @@
 
 
 body{
-    height: 1000px;
+    height: 100%;
     width: 840px;
 }
 
@@ -17,7 +17,7 @@ body{
     height: 690px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin: 5px;
+   
     border-radius: 25px;
     margin: 25px  auto;
     padding-top: 150px;
@@ -26,7 +26,6 @@ body{
 }
 .kutu{
     border:2px solid border;
-    /* color: rgb(114, 112, 112); */
     background-color: rgb(70, 69, 69);
     display: flex;
     justify-content: center;
@@ -36,7 +35,11 @@ body{
     color: white;
     font-size: 2rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bolder;}
+    font-weight: bolder;
+}
+.kutu:hover{
+cursor: pointer;
+}
    
 .k17{
     grid-column: span 2;
