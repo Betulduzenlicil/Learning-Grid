@@ -19,7 +19,7 @@ body{
     grid-template-columns: repeat(4, 1fr);
    
     border-radius: 25px;
-    margin: 25px  auto;
+    margin:auto;
     padding-top: 150px;
     /* text-align: center; */
     
