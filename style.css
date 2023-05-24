@@ -14,7 +14,7 @@ body{
 .container{
     background-color:black;
     width: 400px;
-    height: 840px;
+    height: 690px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: 5px;
