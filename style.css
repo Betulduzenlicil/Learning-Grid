@@ -21,7 +21,7 @@ body{
     border-radius: 25px;
     margin: 25px  auto;
     padding-top: 150px;
-    text-align: center;
+    /* text-align: center; */
     
 }
 .kutu{
@@ -74,7 +74,7 @@ body{
     background-color: orange;
 }
 
-@media screen and (min-width: 1200px)
+@media screen and (max-width:200px)
   
 
 
