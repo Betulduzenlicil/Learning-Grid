@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+.container{
+    background-color:black;
+    height: 85vh;
+    width: 40%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   margin: 5px;
+    border-radius: 25px;
+    margin: 25px  auto;
+    padding-top: 150px;
+    
+}
+.kutu{
+    border:2px solid border;
+    /* color: rgb(114, 112, 112); */
+    background-color: rgb(70, 69, 69);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 5px;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;}
+   
+.k17{
+    grid-column: span 2;
+    border-radius: 45px;
+    text-align: left;
+    padding-right: 55px;
+}
+
+.kutu.k1{
+    background-color: rgb(183, 183, 183);
+    color: black;
+    font-weight: 400;
+}
+.kutu.k2{
+    background-color: rgb(183, 183, 183);
+    color: black;
+    font-weight: 400;
+}
+.kutu.k3{
+    background-color: rgb(183, 183, 183);
+    color: black;
+    font-weight: 400;
+}
+
+.kutu.k4{
+    background-color: orange;
+}
+.kutu.k8{
+    background-color: orange;
+}
+.kutu.k12{
+    background-color: orange;
+}
+.kutu.k16{
+    background-color: orange;
+}
+
+
+
